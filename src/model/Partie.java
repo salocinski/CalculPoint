@@ -7,13 +7,13 @@ public class Partie
 	public ArrayList<Joueur> listeJoueurs = null;
 	private int scoreLimite = 500;
 	private int nombreTours = 1;
+	private boolean partieFinie = false;
+	
 	public void setScoreLimite(int scoreLimite)
 	{
 		this.scoreLimite = scoreLimite;
 	}
 
-	private boolean partieFinie = false;
-	
 	public Partie()
 	{
 		this.nombreTours = nombreTours;
